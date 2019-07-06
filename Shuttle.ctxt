@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=theCanvas\ theSpaceStation
+comment0.target=Shuttle(Canvas,\ SpaceStation)
+comment0.text=\r\n\ Constructor\ create\ a\ Shuttle\ object\:\r\n\ Uses\ canvas\ when\ creating\ the\ shuttle\ object\r\n\ The\ shuttle\ object\ needs\ a\ color,\ an\ initial\ position,\r\n\ an\ initial\ direction\ of\ motion,\ and\ 5\ fuel\ cells\r\n\ \ \ \ \r\n\ @param\ canvas\ the\ canvas\ on\ which\ to\ render\ the\ shuttle\r\n
+comment1.params=theDirection
+comment1.target=void\ setDirection(java.lang.String)
+comment1.text=\r\n\ Change\ direction\ to\ "up"\ or\ "down"\ \ \r\n\ @param\ theDirection\:\ "up"\ or\ "down".\r\n\ TO\ DO\:\ Write\ the\ body\ of\ this\ method.\r\n
+comment2.params=
+comment2.target=void\ moveSmallDistance()
+comment2.text=\r\n\ Move\ the\ shuttle\ 10\ pixels\ up\ or\ down\ in\ the\ direction\ \r\n\ specified\ by\ the\ direction\ instance\ field\r\n\ TO\ DO\:\ Write\ the\ body\ of\ this\ method.\r\n
+comment3.params=
+comment3.target=FuelCell\ launchCell()
+comment3.text=\r\n\ If\ there\ are\ more\ cells,\ create\ a\ new\ fuelCell\ and\ launch\ it\r\n\ from\ the\ vertex\ of\ the\ shuttle.\ One\ is\ deducted\ from\ the\ number\ of\ available\r\n\ cells.\r\n\ \r\n\ NOTE\:\ Don't\ forget\ to\ modify\ the\ getNumberFuelCells()\ method\ so\ that\ the\r\n\ \ \ \ \ \ \ controller\ will\ know\ there\ is\ a\ fuelcell\ to\ launch.\r\n\ \ \ \ \ \ \ \r\n\ @return\ cell\ --\ a\ launched\ FuelCell\ object\ or\ null,\ if\ the\ shuttle\ is\ out\ of\ cells\r\n
+comment4.params=
+comment4.target=void\ dock()
+comment4.text=\r\n\ Send\ the\ shuttle\ out\ to\ the\ space\ station\ and\ back\:\r\n\ (1)\ move\ the\ shuttle\ toward\ the\ space\ station\ and\ dock\r\n\ (2)\ Wait\ three\ seconds\r\n\ (3)\ move\ the\ shuttle\ horizontally\r\n\ \ \ \ \ back\ to\ the\ left\ side\ of\ the\ window.\r\n\ \ \ \ \ \ \r\n\ Pattern\ the\ docking\ operation\ after\ the\ similar\ operation\r\n\ in\ the\ FuelCell\ class.\r\n\ TO\ DO\:\ Write\ the\ body\ of\ this\ method.\r\n
+comment5.params=
+comment5.target=int\ getNumberFuelCells()
+comment5.text=\r\n\ @return\ --\ the\ number\ of\ fuel\ cells\ remaining\r\n\ TO\ DO\:\ rewrite\ the\ body\ of\ this\ method.\r\n
+numComments=6

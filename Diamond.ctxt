@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.params=canvas
+comment0.target=Diamond(Canvas)
+comment0.text=\nCreate\ a\ new\ circle\ with\ a\ default\ position,\ default\ color\ and\ default\ size\n\n
+comment1.target=void\ makeVisible()
+comment1.text=\nMake\ this\ diamond\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\n\n
+comment10.target=int\ getYPosition()
+comment10.text=\n@return\ yPosition\ --\ the\ y\ coordinate\ of\ the\ lowest\ vertex\ of\ the\ diamond\n\n
+comment11.target=int\ getWidth()
+comment11.text=\n@return\ width\ --\ measure\ of\ the\ horizontal\ axis\ of\ the\ diamond\n\n
+comment12.target=int\ getHeight()
+comment12.text=\n@return\ height\ --\ measure\ of\ the\ vertical\ axis\ of\ the\ diamond\n\n
+comment2.target=void\ makeInvisible()
+comment2.text=\nMake\ this\ diamond\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\n\n
+comment3.params=xDistance\ yDistance
+comment3.target=void\ moveDirection(int,\ int)
+comment3.text=\nMove\ the\ lowest\ vertex\ of\ the\ Diamond\ object\ to\ the\ location\ defined\ by\ xDistance\ and\ yDistance\n@param\ \ distanceX\ --\ how\ far\ to\ move\ right\ or\ left\ in\ the\ horizontal\ direction\n@param\ \ distanceY\ --\ how\ far\ to\ move\ right\ or\ left\ in\ the\ vertical\ direction\n\n
+comment4.params=newXPosition\ newYPosition
+comment4.target=void\ moveTo(int,\ int)
+comment4.text=\nMove\ the\ lowest\ vertex\ of\ the\ Diamond\ object\ the\ distance\ defined\ by\ xDistance\ and\ yDistance\n@param\ \ distanceX\ --\ how\ far\ to\ move\ left\ or\ right\ in\ the\ horizontal\ direction\n@param\ \ distanceY\ --\ how\ far\ to\ move\ up\ or\ down\ in\ the\ vertical\ direction\n\n
+comment5.params=newHeight\ newWidth
+comment5.target=void\ changeSize(int,\ int)
+comment5.text=\nChange\ the\ size\ to\ the\ new\ size\ (in\ pixels).\ Size\ must\ be\ >\=\ 0.\n\n
+comment6.params=newColor
+comment6.target=void\ changeColor(String)
+comment6.text=\nChange\ the\ color.\ Valid\ colors\ are\ "red",\ "yellow",\ "blue",\ "green",\n"magenta"\ and\ "black".\n\n
+comment7.target=void\ draw()
+comment7.text=\nDraw\ the\ diamond\ with\ current\ specifications\ (color,\ size,\ center)\ on\ the\ canvas\n\n
+comment8.target=void\ erase()
+comment8.text=\nRemove\ all\ graphics\ from\ the\ canvas\n\n
+comment9.target=int\ getXPosition()
+comment9.text=\n@return\ xPosition\ --\ the\ x\ coordinate\ of\ the\ lowest\ vertex\ of\ the\ diamond\n\n
+numComments=13

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=simCanvas
+comment0.target=SpaceStation(Canvas)
+comment0.text=\nCreates\ a\ space\ shuttle\ as\ a\ Diamond\ object\ at\ a\ random\ position\ at\ the\ top\ of\nthe\ simulation\ window.\ Once\ the\ space\ station\ is\ initialized,\ it\ should\ begin\nto\ orbit.\n\n@param\ canvas\ --\ the\ canvas\ on\ which\ to\ render\ the\ space\ station\n\n
+comment1.target=void\ moveSmallDistance()
+comment1.text=\nHandle\ orbiting\ details\:\n(1)\ move\ the\ space\ station,\ if\ it\ is\ within\ canvas\ boundaries\n(2)\ begin\ another\ orbit\ at\ a\ lower\ starting\ point,\ if\ space\ station\ reaches\ the\ \nright\ side\ of\ the\ canvas.\ Do\ this\ by\ computing\ new\ initXPosition\ and\ initYPosition\nand\ then\ by\ moving\ there\n(2a)\ update\ orbitCount\n(2b)\ if\ space\ station\ completed\ 1\ orbit,\ change\ its\ color\ to\ "yellow"\n(2c)\ if\ space\ station\ completed\ 2\ orbits,\ change\ its\ color\ to\ "red"\n\nTO\ DO\:\ Write\ the\ body\ of\ this\ method.\n\n
+comment2.target=void\ reFuel()
+comment2.text=\nThe\ fuel\ cell\ has\ docked,\ so\:\n(1)\ change\ color\ back\ to\ "green"\n(2)\ wait\ 3\ seconds\n\nTO\ DO\:\ Write\ the\ body\ of\ this\ method.\n\n
+comment3.params=newSpeed
+comment3.target=void\ setSpeed(char)
+comment3.text=\nSet\ the\ orbiting\ speed\ according\ to\ 'B',\ 'I',\ or\ 'A'.\nYou\ can\ experiment\ with\ xDistance\ and\ yDistance\ for\ this.\n\nTO\ DO\:\ Write\ the\ body\ of\ this\ method.\n\n
+comment4.target=int\ getXPosition()
+comment4.text=\n@return\ xPosition\ --\ the\ current\ x-coordinate\ of\ the\ space\ station\nTO\ DO\:\ Rewrite\ the\ body\ of\ this\ method.\n\n
+comment5.target=int\ getYPosition()
+comment5.text=\n@return\ yPosition\ --\ the\ current\ y-coordinate\ of\ the\ space\ station\nTO\ DO\:\ Rewrite\ the\ body\ of\ this\ method.\n\n
+numComments=6
